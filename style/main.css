@@ -12,7 +12,7 @@
 /*Elementos Base*/
 body{
     background: var(--preta); /*Ultilizando variavel*/
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -45,7 +45,7 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/harry-capa.jpg'); /*Adiciona uma camada preta na frente da foto com uma transparência*/
-    height: 400px;
+    height: 450px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -82,4 +82,27 @@ header nav a:hover{
 
 .botao i{
     margin-right: 8px;
+}
+
+.container{
+    margin-left: 1.5%;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.container .logo i{
+    font-size: 33px;
+}
+
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }
